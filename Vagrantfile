@@ -34,7 +34,8 @@ Vagrant::Config.run do |config|
  
     # adjust the run list to suit your testing needs
     chef.run_list = [
-      "recipe[nginx]"
+      "recipe[nginx]",
+      "recipe[nodejs]"
     ]
   end
 end
