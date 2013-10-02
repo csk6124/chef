@@ -15,7 +15,8 @@ base_box = ENV['VAGRANT_BOX'] || 'lucid32'
  
 Vagrant::Config.run do |config|
   config.vm.box = base_box
- 
+  config.vm.box_url = 'http://files.vagrantup.com/lucid32.box' 
+  
   config.vm.provision :chef_client do |chef|
  
     # Set up some organization specific values based on environment variable above.
