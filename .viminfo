@@ -19,14 +19,25 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	      "recipe[postgis]",
 
 # File marks:
-'0  1  8  ~/.gitignore
+'0  41  6  ~/Vagrantfile
+'1  1  8  ~/.gitignore
 
 # Jumplist (newest first):
+-'  41  6  ~/Vagrantfile
+-'  1  0  ~/Vagrantfile
+-'  1  8  ~/.gitignore
 -'  1  8  ~/.gitignore
 
 # History of marks within files (newest to oldest):
+
+> ~/Vagrantfile
+	"	41	6
+	.	41	0
+	+	41	0
 
 > ~/.gitignore
 	"	1	8
